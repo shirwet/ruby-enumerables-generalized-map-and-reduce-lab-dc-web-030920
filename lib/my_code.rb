@@ -12,6 +12,7 @@ def map(array)
 
 
 def reduce (array, n = nil)
+  if 
   i = 0
 total = n 
 
