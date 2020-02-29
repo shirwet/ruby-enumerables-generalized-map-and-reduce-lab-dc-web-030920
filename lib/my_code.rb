@@ -24,3 +24,4 @@ def reduce (array, n = nil)
    i += 1 
  end 
  sum 
+ end
