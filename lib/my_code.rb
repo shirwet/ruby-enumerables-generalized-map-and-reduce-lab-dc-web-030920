@@ -12,9 +12,11 @@ def map(array)
 
 
 def reduce (array, n = nil)
-  if 
+  if total
   i = 0
 total = n 
+else
+i = 1
 
 while i < array.length do 
 total = (yield (array)[i], total)
