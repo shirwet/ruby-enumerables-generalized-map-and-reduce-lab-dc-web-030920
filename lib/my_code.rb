@@ -20,7 +20,7 @@ i = 1
 total = array[i]
 
 while i < array.length do 
-total = (yield total, (array)[i])
+total = yield total, (array)[i]
 
 i+=  
 end
