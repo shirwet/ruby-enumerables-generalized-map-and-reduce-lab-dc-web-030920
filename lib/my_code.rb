@@ -12,17 +12,15 @@ def map(array)
 
 
 def reduce (array, n = nil)
-  if total
-  i = 0
-total = n 
-else
-i = 1
-total = array[i]
-
-while i < array.length do 
-total = yield total, (array)[i]
-
-i+=  
-end
-total
-end 
+  if n 
+     sum  = n
+     i = 0 
+   else 
+     sum = array[0]
+     i = 1 
+   end 
+   while i < array.length
+   sum = yield(sum, array[i])
+   i += 1 
+ end 
+ sum 
